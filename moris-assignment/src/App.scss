@@ -1,0 +1,64 @@
+body {
+  font-size: var(--font-size);
+  color: var(--font-color);
+}
+.header {
+  text-align: center;
+  height:40px;
+  border:1px solid black;
+  color: var(--primary-color);
+  font-size: var(--font-size);
+  background-color: white;
+  }
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.side-menu {
+  flex-basis: 20%;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 1rem;
+  width: 60px;
+  border: 1px solid black;
+  height:1728px;
+}
+
+.page {
+  flex-grow: 1;
+  padding: 1rem;
+  border: 1px solid black;
+  height:1728px;
+  text-align: center;
+  color: var(--secondary-color);
+  font-size: var(--font-size);
+  background-color: white;
+}
+
+.settings-page .settings-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.settings-page label {
+  margin-bottom: 1rem;
+}
+
+.settings-page input[type="color"],
+.settings-page input[type="number"] {
+  margin-left: 0.5rem;
+}
+.footer-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
